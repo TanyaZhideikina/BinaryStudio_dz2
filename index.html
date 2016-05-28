@@ -9,11 +9,29 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<br>
+    <br>
 <form id="todo-list">
+<span class="todo-wrap">
+    <input type="checkbox" id="3"/>
+    <label for="3" class="todo">
+      <i class="fa fa-check"></i>
+     First example item
+    </label>
+    <span class="delete-item" title="remove">
+      <i class="fa fa-times-circle"></i>
+    </span>
+</span>
   <div id="add-todo">
-    <i class="fa fa-plus"></i>
-    Add an Item
+    <i class="fa fa-plus direct"></i>
+    Add new item
+  </div>
+    <div id="delete-todo">
+    <i class="fa fa-plus direct"></i>
+    Delete all items
+  </div>
+     <div id="check-todo">
+    <i class="fa fa-plus direct"></i>
+     Check all items
   </div>
 </form> 
 </body>

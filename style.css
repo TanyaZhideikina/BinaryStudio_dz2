@@ -141,7 +141,7 @@ color:#cd4400;
 }
 /* Add Items */
 
-#add-todo{
+.direct{
 padding:25px 0 0 0;
 font-size:18px;
 font-weight:200;
@@ -149,11 +149,11 @@ color:#04a580;
 display:inline-block;
 cursor:pointer;
 }
-#add-todo:hover{
+.direct:hover{
 color:#6bc569;
 transition:none;
 }
-#add-todo .fa-plus{
+.direct .fa-plus{
 font-size:14px;
 transition:none;
 }
@@ -167,6 +167,7 @@ margin:0;
 padding:0;
 width:100%;
 }
+.editing{
 .editing{
   height:0;
   overflow:hidden;
